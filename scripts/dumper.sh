@@ -1,0 +1,1 @@
+for x in `mdb-tables -1 $1`; do mdb-export $1 $x >> $1.$x.csv ; done

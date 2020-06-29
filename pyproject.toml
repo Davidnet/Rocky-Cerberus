@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rocky_explorations"
+version = "0.1.0"
+description = "Repo that contains small utilities for exploring Rocky databases"
+authors = ["David Cardozo <david@cerberusdata.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.0.5"
+jupyterlab = "^2.1.5"
+seaborn = "^0.10.1"
+typer = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.5.3"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
